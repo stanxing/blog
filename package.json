@@ -1,0 +1,28 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Some understanding of technology in the learning process.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev --no-cache",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanxing/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanxing/blog/issues"
+  },
+  "homepage": "https://github.com/stanxing/blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  },
+  "dependencies": {
+    "markdown-it-attrs": "^3.0.2",
+    "markdown-it-footnote": "^3.0.2"
+  }
+}
