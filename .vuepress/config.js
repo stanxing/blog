@@ -43,12 +43,6 @@ module.exports = {
           },
         ],
       },{
-        title: 'Git',
-        children: [
-          'git/git',
-          'git/gitlab',
-        ],
-      },{
         title: 'HTTP',
         children: [
           'http/http_cache',
