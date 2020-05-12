@@ -23,11 +23,6 @@ module.exports = {
               'linux/ubuntu/postinstall',
             ],
           },{
-            title: 'SSH',
-            children: [
-              'linux/ssh/ssh',
-            ],
-          },{
             title: 'Systemd',
             children: [
               'linux/systemd/journald',
