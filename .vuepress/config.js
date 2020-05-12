@@ -18,6 +18,13 @@ module.exports = {
         title: 'Linux',
         children: [
           {
+            title: 'Kernel',
+            children: [
+              'linux/kernel/tcp.md',
+              'linux/kernel/tcpdump.md',
+            ],
+          },
+          {
             title: 'Ubuntu',
             children: [
               'linux/ubuntu/postinstall',
