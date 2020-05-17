@@ -21,7 +21,6 @@ module.exports = {
             title: 'Kernel',
             children: [
               'linux/kernel/tcp.md',
-              'linux/kernel/tcpdump.md',
             ],
           },
           {
@@ -45,11 +44,17 @@ module.exports = {
           },
         ],
       },{
+        title: 'Git',
+        children: [
+          'git/git',
+          'git/gitlab',
+        ],
+      },{
         title: 'HTTP',
         children: [
-          'http/http_cache',
-          'http/https',
           'http/http_basic',
+          'http/https',
+          'http/http_cache',
         ],
       },{
         title: 'Golang',
